@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#counter-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#counter {
+  font-size: 25px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 450px;
+}
+
+#reset,
+#decrement,
+#increment {
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  background-color: aquamarine;
+  border: 0;
+  border-radius: 10px;
+}
+
+#reset:hover,
+#decrement:hover,
+#increment:hover {
+  background-color: burlywood;
+  color: white;
+}
