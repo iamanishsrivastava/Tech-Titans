@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+/* Tweet styles */
+.tweet {
+  border: 2px solid #000; /* Change border color and width as needed */
+  border-radius: 5px;
+  margin: 20px; /* Add margin to separate from background */
+  padding: 10px;
+  background-color: #fff; /* Add a background color if needed */
+}

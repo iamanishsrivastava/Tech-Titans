@@ -1,0 +1,74 @@
+center {
+    text-align: center;
+}
+
+
+.left-aligned {
+    float: left;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1
+{
+    text-align: center;
+
+}
+h2
+{
+    text-align: center;
+    font-size: 37px; 
+}
+
+.large-text {
+    font-size: 38px; /* You can adjust the size as needed */
+}
+.large-text1 {
+    font-size: 48px; /* You can adjust the size as needed */
+}
+.large-text2 {
+    font-size: 60px; /* You can adjust the size as needed */
+text-align: center;
+font-family: inherit;
+}
+.nxt {
+    width: 200px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    font-size: 30px; /* Optionally adjust the font size */
+    text-align: center;
+    margin: 0 auto;
+    
+    }
+    .txt{
+        font-size: smaller;
+    }
+    pre{
+        text-align:center;
+    }
+    .para{
+        text-align: center;
+    }
+    .crea{
+        text-align: center;
+        width: 200px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border-radius: 45%;
+    }
+    .al{
+        text-align: center;
+    }
+.joi
+{
+    font-size: 40px;
+}
+.si
+{
+    border-radius: 45%;
+    text-align: center;
+    width: 150px; /* Adjust the width as needed */
+height: 40px;
+}
