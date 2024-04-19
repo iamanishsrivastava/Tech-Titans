@@ -4,6 +4,7 @@ const admin = require('firebase-admin');
 const serviceAccount = require('./config/serviceAccountKey.json');
 const authRoutes = require('./routes/authRoutes'); // Import the authRoutes
 const firestoreRoutes = require('./routes/firestoreRoutes'); // Import Firestore routes
+const cors = require('cors'); // Import cors middleware
 
 // express app
 const app = express()
@@ -17,7 +18,7 @@ admin.initializeApp({
 // middleware
 
 app.use(express.json())
-
+app.use(cors())
 app.use((req, res, next) => {
   console.log(req.path, req.method)
   next()
@@ -26,7 +27,7 @@ app.use((req, res, next) => {
 app.use('/auth', authRoutes);
 app.use('/firestore', firestoreRoutes); // Use Firestore routes
 
-PORT=5000
+PORT=5011
 app.listen(PORT, () => {
     console.log('Listening for requests on port', PORT);
   });

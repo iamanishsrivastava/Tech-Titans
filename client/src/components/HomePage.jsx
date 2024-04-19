@@ -1,12 +1,16 @@
 import React from 'react';
 import './post.css';
+import { useNavigate } from 'react-router-dom';
+import CreateUser from './CreateUser.jsx';
 
 const HomePage = () => {
-  const goToPage1 = () => {
-    
-    // Define the function to navigate to page1
-    window.location.href = 'page1.html';
-  };
+
+    const navigate = useNavigate(); // Initialize useNavigate
+  
+    const goToPage1 = () => {
+      navigate('/CreateUser'); // Use navigate to go to CreateUser page
+    };
+  
 
   const goToPage2 = () => {
     // Define the function to navigate to page2
